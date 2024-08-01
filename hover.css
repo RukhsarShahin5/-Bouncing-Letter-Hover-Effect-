@@ -1,0 +1,51 @@
+body { 
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    }
+h1 { 
+    font-family: sans-serif; 
+    font-size: 80px; 
+    text-align: center; 
+    color: #f68084; 
+    margin-top: 300px; 
+    
+} 
+
+.bounce { 
+    animation-name: bounce; 
+} 
+
+.bouncing-letters span { 
+    animation-timing-function: linear; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1; 
+    display: inline-block; 
+} 
+.bouncing-letters span:hover { 
+    color: whitesmoke; 
+} 
+
+@keyframes bounce { 
+
+    20%, 
+    50%, 
+    80%, 
+    to { 
+        transform: scale(1, 1); 
+    } 
+
+    40% { 
+        transform: scale(1.75, 0.65); 
+    } 
+
+    45% { 
+        transform: scale(1.75, 0.65); 
+    } 
+
+    70% { 
+        transform: scale(1.25, 0.75); 
+    } 
+
+    90% { 
+        transform: scale(1.15, 0.85); 
+    } 
+} 
